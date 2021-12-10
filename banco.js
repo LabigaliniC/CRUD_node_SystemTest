@@ -1,5 +1,5 @@
 async function conectar() {
-    if (global.connection && global.connection.state != 'disconected') {
+    if (global.connection && global.connection.state != 'disconnected') {
         return global.connection
     }
     //const dbConfig = require('./dbConfig.json')
