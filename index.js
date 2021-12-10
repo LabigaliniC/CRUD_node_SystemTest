@@ -4,7 +4,7 @@ const ejs = require('ejs')
 const bodyParser = require('body-parser')
 const banco = require('./banco')
 
-const porta = 4000
+const porta = 4321
 const app = express()
 const caminhoTelas = __dirname + '\telas'
 
